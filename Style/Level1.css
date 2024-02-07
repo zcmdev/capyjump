@@ -1,0 +1,218 @@
+.top {
+  display: flex;
+  background-color: antiquewhite;
+  height: 200px;
+  min-width: 900px;
+}
+
+.top-left {
+  flex: 1;
+  background-color: #ECEBC9;
+}
+
+.top-title {
+  background-color: #FFD6A5;
+  width: 500px;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 4px solid white;
+}
+
+.top-right {
+  flex: 1;
+  background-color: #ECEBC9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.middle {
+  display: flex;
+  background-color: lightblue;
+  height: 500px;
+  min-width: 900px;
+}
+
+.middle-left {
+  flex: 1;
+  background-color: #ECEBC9;
+  border-right: 4px solid white;
+}
+
+.middle-game {
+  width: 500px;
+  background-color: #EAF1FB;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-hearts {
+  height: 50px;
+  display: flex;
+}
+
+.space {
+  flex: 1;
+  background-color: #fcf4dd;
+}
+
+.js-heart1, .js-heart2, .js-heart3 {
+  width: 50px;
+  background-color: #fcf4dd;
+  background-image: url(Image/heart.png);
+  background-size: cover;
+}
+
+.middle-sky {
+  height: 100px;
+  display: flex;
+  background-color: #fcf4dd;
+}
+
+.js-cloud1 {
+  height: 60px;
+  width: 100px;
+  background-image: url('Image/cloud.png');
+  background-size: cover;
+}
+
+.middle-game-play {
+  flex: 1;
+  background-color: #fcf4dd;
+  display: flex;
+  align-items: flex-end;
+  background-image: url('Image/house.jpg');
+  background-size: cover;
+}
+
+.middle-game-ground {
+  height: 180px;
+  background-color: #EAF1FB;
+  border-top: 4px solid white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('Image/ground.jpg');
+  background-size: cover;
+}
+
+.js-gameText {
+  font-size: 30px;
+  color: #A8CAD6;
+}
+
+.howToPlay {
+  font-size: 25px;
+  color: white;
+}
+
+.howToPlayRules {
+  font-size: 20px;
+  color: white;
+}
+
+.middle-right {
+  flex: 1;
+  background-color: #ECEBC9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 4px solid white;
+}
+
+.bottom {
+  display: flex;
+  background-color: lightgrey;
+  height: 200px;
+  min-width: 900px;
+}
+
+.bottom-left {
+  flex: 1;
+  background-color: #ECEBC9;
+}
+
+.bottom-middle {
+  width: 500px;
+  background-color: #FFD6A5;
+  border-top: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottom-right {
+  flex: 1;
+  background-color: #ECEBC9;
+  color: #758467;
+  font-family: Ms Madi;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 4px solid white;
+}
+
+/* This is the code for the Character*/
+
+.capybara {
+  height: 60px;
+  width: 70px;
+  /*background-color: red;
+  border-radius: 50%;*/
+  background-image: url(Image/capy.png);
+  background-size: cover;
+  z-index: 100;
+}
+
+/* This is the styling for the Buttons*/
+
+.js-jump, .js-play, .js-stop {
+  font-family: 'Raleway', sans-serif, Arial;
+  font-weight: 300;
+  font-size: 50px;
+  background-color: #DBCDF0;
+  color: white;
+  border: none;
+  border-radius: 3%;
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+  transition: opacity 0.18s;
+}
+
+.js-stop {
+  background-color: #FFC2D1;
+}
+
+.js-jump {
+  background-color: #F6AC69;
+}
+
+.js-jump:active, .js-play:active, .js-stop:active {
+  opacity: 0.5;
+}
+
+/* This is the styling for the Orange*/
+
+.orange {
+  height: 40px;
+  width: 40px;
+  background-image: url(Image/Orange.png);
+  background-size: cover;
+
+  /*border-radius: 50%;*/
+}
+
+.js-score {
+  font-size: 30px;
+  color: #758467;
+}
