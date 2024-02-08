@@ -42,6 +42,10 @@
   flex: 1;
   background-color: #ECEBC9;
   border-right: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .middle-game {
@@ -54,16 +58,15 @@
 .middle-hearts {
   height: 50px;
   display: flex;
+  background-color: #fcf4dd;
 }
 
 .space {
   flex: 1;
-  background-color: #fcf4dd;
 }
 
 .js-heart1, .js-heart2, .js-heart3 {
   width: 50px;
-  background-color: #fcf4dd;
   background-image: url(Image/heart.png);
   background-size: cover;
 }
@@ -175,7 +178,7 @@
 
 /* This is the styling for the Buttons*/
 
-.js-jump, .js-play, .js-stop {
+.js-jump, .js-play, .js-stop, .js-level1, .js-level2, .js-level3 {
   font-family: 'Raleway', sans-serif, Arial;
   font-weight: 300;
   font-size: 50px;
@@ -189,6 +192,10 @@
   transition: opacity 0.18s;
 }
 
+.js-level1, .js-level2, .js-level3 {
+  background-color: #CBD4C2;
+}
+
 .js-stop {
   background-color: #FFC2D1;
 }
@@ -197,7 +204,7 @@
   background-color: #F6AC69;
 }
 
-.js-jump:active, .js-play:active, .js-stop:active {
+.js-jump:active, .js-play:active, .js-stop:active, .js-level1:active, .js-level2:active, .js-level3:active {
   opacity: 0.5;
 }
 
