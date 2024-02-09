@@ -200,6 +200,7 @@
 .js-level1, .js-level2, .js-level3 {
   background-color: #CBD4C2;
   text-align: center;
+  font-size: 40px;
 }
 
 .js-stop {
