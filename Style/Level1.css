@@ -59,6 +59,7 @@
   height: 50px;
   display: flex;
   background-color: #fcf4dd;
+  margin-bottom: -5px;
 }
 
 .space {
@@ -75,6 +76,7 @@
   height: 100px;
   display: flex;
   background-color: #fcf4dd;
+  margin-bottom: -5px;
 }
 
 .js-cloud1 {
