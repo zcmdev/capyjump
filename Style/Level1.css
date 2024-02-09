@@ -8,6 +8,7 @@
 .top-left {
   flex: 1;
   background-color: #ECEBC9;
+  min-width: 200px;
 }
 
 .top-title {
@@ -46,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 200px;
 }
 
 .middle-game {
@@ -142,6 +144,7 @@
 .bottom-left {
   flex: 1;
   background-color: #ECEBC9;
+  min-width: 200px;
 }
 
 .bottom-middle {
