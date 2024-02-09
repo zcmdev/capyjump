@@ -144,7 +144,30 @@
       let playLevel = 1;
       const block = 140;
 
+      let bg1 = new Image();
+      let bg2 = new Image();
+      let bg3 = new Image();
+      let bgplay1 = new Image();
+      let bgplay2 = new Image();
+      let bgplay3 = new Image();
+      let bglose1 = new Image();
+      let bglose2 = new Image();
+      let bglose3 = new Image();
+
       initialGame();
+      preloadImage();
+
+      function preloadImage() {
+        bg1.src = 'Style/Image/house.jpg';
+        bg2.src = 'Style/Image/house2.jpg';
+        bg3.src = 'Style/Image/house3.png';
+        bgplay1.src = 'Style/Image/orangetree.jpg';
+        bgplay2.src = 'Style/Image/playbg2.jpg';
+        bgplay3.src = 'Style/Image/playbg3.png';
+        bglose1.src = 'Style/Image/lost.jpg';
+        bglose2.src = 'Style/Image/lost2.jpg';
+        bglose3.src = 'Style/Image/lost3.png';
+      }
 
       function initialGame() {
         /*Game General*/
